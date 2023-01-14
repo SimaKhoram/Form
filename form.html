@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <div class="form_cnt">
+    <form action="/">
+      <label for="fname">
+        First name:
+        <input type="text" id="fname" name="fname" placeholder="Sima">
+      </label>
+      <label for="lname">
+        Last name:
+        <input type="text" id="lname" name="lname" placeholder="Khoram">
+      </label>
+      <label for="phonenum">
+        Phone Number:
+        <input type="tel" id="phonenum" name="phonenum" placeholder="+989121234567">
+      </label>
+      <label for="Age">
+        Age:
+        <input type="number" id="Age" name="Age" min="18" max="100">
+      </label>
+      <div>
+        <span>Gender:</span>
+        <label for="Male" class="radio_label">
+          Male
+          <input type="radio" id="Male" name="Gender">
+        </label>
+        <label for="Female" class="radio_label">
+          Female
+          <input type="radio" id="Female" name="Gender">
+        </label>
+        <label for="Other" class="radio_label">
+          Other
+          <input type="radio" id="Other" name="Gender">
+        </label>
+      </div>
+      <label for="Password">
+        Password:
+        <input type="password" id="Password" name="Password">
+      </label>
+      <input type="submit" value="Submit" class="submit">
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #bbb, #45b3cc);
+}
+
+.form_cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
+    width: 420px;
+    height: 400px;
+    background-color: #0000003d;
+    border-radius: 13px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+label,
+span {
+    color: #011a20;
+    font-weight: bold;
+}
+
+.radio_label {
+    color: #fff;
+    font-weight: normal;
+}
+
+.submit {
+    background-color: #45b3cc;
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
