@@ -20,7 +20,7 @@ form {
     align-content: center;
     gap: 16px;
     width: 420px;
-    height: 400px;
+    height: 500px;
     background-color: #0000003d;
     border-radius: 13px;
 }
@@ -48,4 +48,22 @@ span {
     font-size: 1.2em;
     margin-top: 20px;
     cursor: pointer;
+}
+
+/* input:required {
+    border: 3px solid #ac501b;
+} */
+input:invalid {
+    border: 2px solid #ff0707;
+}
+
+input:valid:not(.submit) {
+    border: 2px solid #00ff809d;
+}
+
+.hint {
+    font-weight: normal;
+    font-size: .8em;
+    color: aliceblue;
+    line-height: 0;
 }
